@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chrome Screenshots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 16px;
+    }
+    button {
+      display: inline-block;
+      background-color: #4285f4;
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #2a75c3;
+    }
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+<body>
+  <button id="capture">Capture Screenshot</button>
+  <p>Example output filename:<br><strong><span id="exampleFilename"></span></strong></p>
+  <script src="popup.js"></script>
+</body>
+</html>
